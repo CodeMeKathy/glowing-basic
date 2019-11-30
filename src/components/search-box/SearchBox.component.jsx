@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-import './search-box.styles.css';
+import './SearchBox.styles.css'
 
 export const SearchBox = props => (
   <input
@@ -9,4 +9,4 @@ export const SearchBox = props => (
     placeholder='search monsters'
     onChange={props.onSearchChange}
   />
-);
+)

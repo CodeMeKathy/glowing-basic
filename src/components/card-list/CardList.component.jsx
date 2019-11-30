@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import { Card } from '../card/card.component';
+import { Card } from '../card/Card.component'
 
-import './card-list.styles.css';
+import './CardList.styles.css'
 
 export const CardList = props => (
   <div className='card-list'>
@@ -10,4 +10,4 @@ export const CardList = props => (
       <Card key={monster.id} monster={monster} />
     ))}
   </div>
-);
+)
